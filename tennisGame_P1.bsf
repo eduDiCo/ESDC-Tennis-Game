@@ -1,0 +1,225 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 312 304)
+	(text "tennisGame_P1" (rect 5 0 82 12)(font "Arial" ))
+	(text "inst" (rect 8 272 25 284)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 14 12)(font "Arial" ))
+		(text "clk" (rect 21 27 35 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "nrst" (rect 0 0 18 12)(font "Arial" ))
+		(text "nrst" (rect 21 43 39 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "new_game" (rect 0 0 51 12)(font "Arial" ))
+		(text "new_game" (rect 21 59 72 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 1))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "ast" (rect 0 0 15 12)(font "Arial" ))
+		(text "ast" (rect 21 75 36 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 1))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "RDY_RECEIVED" (rect 0 0 87 12)(font "Arial" ))
+		(text "RDY_RECEIVED" (rect 21 91 108 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "DT_BALL_RECEIVED" (rect 0 0 108 12)(font "Arial" ))
+		(text "DT_BALL_RECEIVED" (rect 21 107 129 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "DT_SCORE_RECEIVED" (rect 0 0 121 12)(font "Arial" ))
+		(text "DT_SCORE_RECEIVED" (rect 21 123 142 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "Ball_Pos_Y[9..0]" (rect 0 0 82 12)(font "Arial" ))
+		(text "Ball_Pos_Y[9..0]" (rect 21 139 103 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "Ball_Move_X[9..0]" (rect 0 0 88 12)(font "Arial" ))
+		(text "Ball_Move_X[9..0]" (rect 21 155 109 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160)(line_width 3))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "Ball_Move_Y[9..0]" (rect 0 0 90 12)(font "Arial" ))
+		(text "Ball_Move_Y[9..0]" (rect 21 171 111 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 3))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "Oponent_Score_RX[7..0]" (rect 0 0 121 12)(font "Arial" ))
+		(text "Oponent_Score_RX[7..0]" (rect 21 187 142 199)(font "Arial" ))
+		(line (pt 0 192)(pt 16 192)(line_width 3))
+	)
+	(port
+		(pt 0 208)
+		(input)
+		(text "Our_Score_RX[7..0]" (rect 0 0 97 12)(font "Arial" ))
+		(text "Our_Score_RX[7..0]" (rect 21 203 118 215)(font "Arial" ))
+		(line (pt 0 208)(pt 16 208)(line_width 3))
+	)
+	(port
+		(pt 0 224)
+		(input)
+		(text "end_of_field_reached" (rect 0 0 106 12)(font "Arial" ))
+		(text "end_of_field_reached" (rect 21 219 127 231)(font "Arial" ))
+		(line (pt 0 224)(pt 16 224)(line_width 1))
+	)
+	(port
+		(pt 0 240)
+		(input)
+		(text "goal" (rect 0 0 20 12)(font "Arial" ))
+		(text "goal" (rect 21 235 41 247)(font "Arial" ))
+		(line (pt 0 240)(pt 16 240)(line_width 1))
+	)
+	(port
+		(pt 0 256)
+		(input)
+		(text "ready_to_TX" (rect 0 0 61 12)(font "Arial" ))
+		(text "ready_to_TX" (rect 21 251 82 263)(font "Arial" ))
+		(line (pt 0 256)(pt 16 256)(line_width 1))
+	)
+	(port
+		(pt 296 32)
+		(output)
+		(text "SEND_RDY" (rect 0 0 61 12)(font "Arial" ))
+		(text "SEND_RDY" (rect 214 27 275 39)(font "Arial" ))
+		(line (pt 296 32)(pt 280 32)(line_width 1))
+	)
+	(port
+		(pt 296 48)
+		(output)
+		(text "SEND_BALL_DT" (rect 0 0 82 12)(font "Arial" ))
+		(text "SEND_BALL_DT" (rect 193 43 275 55)(font "Arial" ))
+		(line (pt 296 48)(pt 280 48)(line_width 1))
+	)
+	(port
+		(pt 296 64)
+		(output)
+		(text "SEND_SCORE_DT" (rect 0 0 95 12)(font "Arial" ))
+		(text "SEND_SCORE_DT" (rect 180 59 275 71)(font "Arial" ))
+		(line (pt 296 64)(pt 280 64)(line_width 1))
+	)
+	(port
+		(pt 296 80)
+		(output)
+		(text "enable_Ball_Move" (rect 0 0 88 12)(font "Arial" ))
+		(text "enable_Ball_Move" (rect 187 75 275 87)(font "Arial" ))
+		(line (pt 296 80)(pt 280 80)(line_width 1))
+	)
+	(port
+		(pt 296 96)
+		(output)
+		(text "initial_Move" (rect 0 0 57 12)(font "Arial" ))
+		(text "initial_Move" (rect 218 91 275 103)(font "Arial" ))
+		(line (pt 296 96)(pt 280 96)(line_width 1))
+	)
+	(port
+		(pt 296 112)
+		(output)
+		(text "frame_received" (rect 0 0 77 12)(font "Arial" ))
+		(text "frame_received" (rect 198 107 275 119)(font "Arial" ))
+		(line (pt 296 112)(pt 280 112)(line_width 1))
+	)
+	(port
+		(pt 296 128)
+		(output)
+		(text "LightWIN" (rect 0 0 46 12)(font "Arial" ))
+		(text "LightWIN" (rect 229 123 275 135)(font "Arial" ))
+		(line (pt 296 128)(pt 280 128)(line_width 1))
+	)
+	(port
+		(pt 296 144)
+		(output)
+		(text "Light_Loose" (rect 0 0 59 12)(font "Arial" ))
+		(text "Light_Loose" (rect 216 139 275 151)(font "Arial" ))
+		(line (pt 296 144)(pt 280 144)(line_width 1))
+	)
+	(port
+		(pt 296 160)
+		(output)
+		(text "Ball_Pos_Y_TX[9..0]" (rect 0 0 100 12)(font "Arial" ))
+		(text "Ball_Pos_Y_TX[9..0]" (rect 175 155 275 167)(font "Arial" ))
+		(line (pt 296 160)(pt 280 160)(line_width 3))
+	)
+	(port
+		(pt 296 176)
+		(output)
+		(text "Ball_Move_X_TX[9..0]" (rect 0 0 106 12)(font "Arial" ))
+		(text "Ball_Move_X_TX[9..0]" (rect 169 171 275 183)(font "Arial" ))
+		(line (pt 296 176)(pt 280 176)(line_width 3))
+	)
+	(port
+		(pt 296 192)
+		(output)
+		(text "Ball_Move_Y_TX[9..0]" (rect 0 0 108 12)(font "Arial" ))
+		(text "Ball_Move_Y_TX[9..0]" (rect 167 187 275 199)(font "Arial" ))
+		(line (pt 296 192)(pt 280 192)(line_width 3))
+	)
+	(port
+		(pt 296 208)
+		(output)
+		(text "Oponent_Score_TX[7..0]" (rect 0 0 119 12)(font "Arial" ))
+		(text "Oponent_Score_TX[7..0]" (rect 156 203 275 215)(font "Arial" ))
+		(line (pt 296 208)(pt 280 208)(line_width 3))
+	)
+	(port
+		(pt 296 224)
+		(output)
+		(text "Our_Score_TX[7..0]" (rect 0 0 95 12)(font "Arial" ))
+		(text "Our_Score_TX[7..0]" (rect 180 219 275 231)(font "Arial" ))
+		(line (pt 296 224)(pt 280 224)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 280 272)(line_width 1))
+	)
+)
